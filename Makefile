@@ -6,7 +6,7 @@
 #    By: jaboga-d <jaboga-d@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/01/13 15:24:41 by jaboga-d          #+#    #+#              #
-#    Updated: 2025/01/29 14:29:42 by jaboga-d         ###   ########.fr        #
+#    Updated: 2025/05/09 13:48:27 by jaboga-d         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -46,7 +46,11 @@ SOURCES = ft_atoi.c		\
 		ft_strtrim.c	\
 		ft_substr.c		\
 		ft_tolower.c	\
-		ft_toupper.c
+		ft_toupper.c	\
+		get_next_line/get_next_line.c get_next_line/get_next_line_utils.c \
+		ft_printf/ft_printf.c ft_printf/ft_printf_int_decimal.c \
+		ft_printf/ft_printf_number_hex.c ft_printf/ft_printf_ptr.c \
+		ft_printf/ft_printf_unsigned_int.c
 
 BSOURCES = ft_lstnew_bonus.c	\
 		ft_lstadd_front_bonus.c	\

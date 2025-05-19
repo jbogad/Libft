@@ -6,7 +6,7 @@
 /*   By: jaboga-d <jaboga-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/13 15:24:46 by jaboga-d          #+#    #+#             */
-/*   Updated: 2025/01/30 14:37:25 by jaboga-d         ###   ########.fr       */
+/*   Updated: 2025/05/06 17:59:57 by jaboga-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@
 # include <string.h>
 # include <unistd.h>
 # include <limits.h>
+// # include "ft_printf/ft_printf.h"
+# include "get_next_line/get_next_line.h"
 
 int		ft_isalnum(int c);
 int		ft_isalpha(int c);
